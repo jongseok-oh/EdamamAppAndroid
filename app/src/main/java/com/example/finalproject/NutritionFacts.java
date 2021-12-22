@@ -48,7 +48,7 @@ public class NutritionFacts extends AppCompatActivity {
 
     EditText etext;
     Button btn;
-    String url = "http://******/mobile/NutritionFacts";
+    String url = "http://******" + "/mobile/NutritionFacts";
     ListView list;
 
     ArrayList<String> items = new ArrayList<>();
