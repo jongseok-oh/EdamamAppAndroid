@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FinalProject/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FinalProject/app/src/main/res/layout/content_join.xml" value="0.8870967741935484" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FinalProject/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FinalProject/app/src/main/res/layout/join.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FinalProject/app/src/main/res/layout/listitem.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FinalProject/app/src/main/res/layout/login.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FinalProject/app/src/main/res/layout/mainpage.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FinalProject/app/src/main/res/layout/nutrition_facts.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FinalProject/app/src/main/res/layout/recipe_search.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FinalProject/app/src/main/res/layout/today_diet.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

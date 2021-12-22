@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fef6e4"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Enter an ingredient list list for what you are cooking, like '1 cup rice, 10 oz chickpeas', etc."
+        android:textSize="15dp"
+        android:textColor="#D8BF63" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/nutritionSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:hint="ex) 1 cup rice, 10 oz chickpeas"
+            android:inputType="textPersonName"
+            android:textColorHint="#D8BF63" />
+
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            app:backgroundTint="#D8BF63" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/nutrition"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

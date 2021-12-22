@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalproject" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalProject"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name=".join"
+            android:exported="true"
+            android:label="@string/title_activity_join"
+            android:theme="@style/Theme.FinalProject.NoActionBar" />
+        <!-- http request -->
+        <activity
+            android:name=".login"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NutritionFacts"
+            android:label="Nut" /> <!-- activity 사용 -->
+        <activity
+            android:name=".RecipeSearch"
+            android:label="Rep" />
+        <activity
+            android:name=".TodayDiet"
+            android:label="Tod" />
+        <activity
+            android:name=".mainPage"
+            android:label="Main" />
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true" />
+    </application>
+
+</manifest>
