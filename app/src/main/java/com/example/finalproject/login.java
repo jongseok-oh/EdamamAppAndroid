@@ -32,7 +32,7 @@ public class login extends AppCompatActivity {
 
     EditText etextId,passwd;
     Button login , join;
-    String url = "http://******/mobile";
+    String url = "http://146.56.182.55/mobile";
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
